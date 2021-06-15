@@ -147,7 +147,7 @@ library(ucminf)
 library(ggplot2)
 
 
-setwd("C:\\Users\\User\\Documents\\myProjects\\beta_binomial_dispersion_est\\BB_logistic_regression_with_EB_dispersion_shrinkage_for_DEA")
+# set working directory
 
 G.counts = read.csv("data/miRNA_editing_G_counts.csv", row.names = 1)
 A.counts = read.csv("data/miRNA_editing_A_counts.csv", row.names = 1)
